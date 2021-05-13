@@ -1,9 +1,9 @@
 # T-Display-Dharma-Counter
-<h2>Tally counter with the function of the auto counting of prostrations with a dharmic bias for LilyGO TTGO T-Display ESP32 board.</h2>
+## Tally counter with the function of the auto counting of prostrations with a dharmic bias for LilyGO TTGO T-Display ESP32 board.
 
-##Version 1.0
+<b>Version 1.0</b>
 
-##Connections
+### Connections
 
 External buttons connected to GND and board pins:<br>
 Pin 2  - [INC], [+] icrement button<br>
@@ -18,7 +18,7 @@ SDA to pin 21 of board<br>
 Micro audio speaker (10mm) connected to:<br>
 Pin 25 and GND
 
-##Functionality
+### Functionality
 
 [INC]   - increase current counter<br>
 [DEC]   - decrease current counter<br>
@@ -28,7 +28,7 @@ Pin 25 and GND
 [Audio] - Sound ON/OFF and Pause in prostartions counter mode<br>
 [NXT] long press or [PRV] long press - Configuration menu
 
-##Configuration menu
+### Configuration menu
 
 The menu has minimal functionality. Most of the configuration is carried out through the web server in AP mode.<br>
 [NXT] - next menu element<br>
@@ -36,7 +36,7 @@ The menu has minimal functionality. Most of the configuration is carried out thr
 [INC] - select/increase value<br>
 [DEC] - decrease value
 
-##Web server
+### Web server
 
 Web server in AP (Access Point) mode. After connecting to the Access Point via WiFi, use the IP address in the browser to open the configuration page.<br>
 [INC] - show QR code for server IP<br>
