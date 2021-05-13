@@ -5,17 +5,17 @@
 
 ### Connections
 
-External buttons connected to GND and board pins:<br>
+<b>External buttons connected to GND and board pins:</b><br>
 Pin 2  - [INC], [+] icrement button<br>
 Pin 27 - [DEC], [-] decrement button<br>
 Pin 12 - [Audio], [Pause] button<br>
-Build in buttons:<br>
+<b>Build in buttons:</b><br>
 Pin 0  - [NXT] next mode button<br>
 Pin 35 - [PRV] previous mode button<br>
-VL53L0X module for prostrations counter connected:<br>
+<b>VL53L0X module for prostrations counter connected:</b><br>
 SCL to pin 22 of board<br>
 SDA to pin 21 of board<br>
-Micro audio speaker (10mm) connected to:<br>
+<b>Micro audio speaker (10mm) connected to:</b><br>
 Pin 25 and GND
 
 ### Functionality
