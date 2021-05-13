@@ -54,7 +54,7 @@ Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_
 ### Prostrations auto counting
 
 A distance sensor VL53L0X is used for auto counting.<br>
-<b>Counting logic:</><br>
+<b>Counting logic:</b><br>
 If the distance is less than specified (70 cm) during a certain time, then this is defined as a prostration.<br>
 After the distance has become more than specified (70 cm) for a certain time, it is defined as the beginning of a new one.
 
