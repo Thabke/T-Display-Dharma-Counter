@@ -20,7 +20,7 @@ Pin 25 and GND
 
 ### Schematic
 
-
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/GFX/CounterSchematic.jpg" alt="Schematic" width="515" height="476">
 
 ### Functionality
 
