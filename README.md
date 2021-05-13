@@ -1,5 +1,5 @@
 # T-Display-Dharma-Counter
-##Tally counter with the function of the auto counting of prostrations with a dharmic bias for LilyGO TTGO T-Display ESP32 board. 
+<h2>Tally counter with the function of the auto counting of prostrations with a dharmic bias for LilyGO TTGO T-Display ESP32 board.</h2>
 
 ##Version 1.0
 
