@@ -1,5 +1,5 @@
 # T-Display-Dharma-Counter
-## Tally counter with the function of the auto counting of prostrations with a dharmic bias for LilyGO TTGO T-Display ESP32 board.
+## Tally counter with the function of the auto counting of prostrations for LilyGO TTGO T-Display ESP32 board.
 
 <b>Version 1.0</b>
 
@@ -29,7 +29,7 @@ Pin 25 and GND
 [DEC] long press  - reset current counter<br>
 [NXT]   - next counter mode<br>
 [PRV]   - previous counter mode<br>
-[Audio] - Sound ON/OFF and Pause in prostartions counter mode<br>
+[Audio] - Sound ON/OFF and Pause/Count in prostartions counter mode<br>
 [NXT] long press or [PRV] long press - Configuration menu
 
 ### Configuration menu
@@ -48,5 +48,5 @@ Web server in AP (Access Point) mode. After connecting to the Access Point via W
 
 Application size about 1.8 Mb, so use partition scheme with 2 Mb for APP.<br>
 All files from \data folder, must be uploaded to the SPIFFS.<br>
-Use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
-Or this: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
+For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
+Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
