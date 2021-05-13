@@ -1,0 +1,50 @@
+{
+  "title":  [
+    "• Mode 7 •",
+    "• Mode 21 •",
+    "• Mode 108 •",
+    "• Prostrations •",
+    "Tally counter 1",
+    "Tally counter 2",
+    "Tally counter 3",
+    "Tally counter 4",
+    "Tally counter 5",
+    "Tally counter 6",
+    "Tally counter 7",
+    "Tally counter 8",
+    "Tally counter 9",
+    "Tally counter 10"
+  ],
+  "max_value":  [
+    7,
+    21,
+    108,
+    999999,
+	999999,
+    999999,
+    999999,
+    999999,
+    999999,
+    999999,
+    999999,
+    999999,
+    999999,
+    999999
+  ],
+  "show": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+    ]
+}

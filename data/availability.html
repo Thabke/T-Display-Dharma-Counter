@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<!-- ESP32 Dharma Counter web settings system -->
+<!-- Made with bootstrap: https://getbootstrap.com/ -->
+<html>
+<head>
+	<title>Counters Availability Settings</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="data:,">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<!-- <script src="bootstrap.bundle.js"></script> -->
+</head>
+<body>
+ 	<div class="container">
+		<h2 class="text-center">Counters Availability</h2>
+		<form action="/saveavailability">
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR1%">Mode 7 : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter1" value="show" %SHOW1% onchange="this.form.submit();">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR2%">Mode 21 : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter2" value="show" %SHOW2% onchange="this.form.submit();">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR3%">Mode 108 : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter3" value="show" %SHOW3% onchange="this.form.submit();">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR4%">Prostrations : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter4" value="show" %SHOW4% onchange="this.form.submit();">
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR4%">%TALLY1TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter5" value="show" %SHOW5% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR6%">%TALLY2TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter6" value="show" %SHOW6% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR7%">%TALLY3TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter7" value="show" %SHOW7% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR8%">%TALLY4TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter8" value="show" %SHOW8% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR9%">%TALLY5TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter9" value="show" %SHOW9% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR10%">%TALLY6TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter10" value="show" %SHOW10% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR11%">%TALLY7TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter11" value="show" %SHOW11% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR12%">%TALLY8TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter12" value="show" %SHOW12% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR13%">%TALLY9TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter13" value="show" %SHOW13% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+			<div class="row justify-content-md-center align-items-end">
+				<div class="col-md-5">
+					<span class="%COLOR14%">%TALLY10TITLE% : </span>
+				</div>
+				<div class="col-md-1">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="counter14" value="show" %SHOW14% onchange="this.form.submit();"> 
+					</div>
+				</div>
+			</div>
+		</form>
+		<br> 
+		<div class="d-grid gap-2 col-3 mx-auto">
+			<a href="/" class="btn btn-danger" role="button" data-bs-toggle="button">Return to Start Page</a>
+		</div>
+	</div>
+</body>
+</html>

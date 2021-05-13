@@ -1,0 +1,14 @@
+{
+  "sound": true,
+  "mode": 0,
+  "brightness": 255,
+  "dim_brightness": 8,
+  "power_save": true,
+  "dim_time": 15000,
+  "sleep_time": 5000,
+  "prst_low_time": 300,
+  "prst_sup_time": 500,
+  "prst_distance": 700,
+  "ssid": "Dharma Counter",
+  "password": ""
+}

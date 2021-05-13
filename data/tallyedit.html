@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!-- ESP32 Dharma Counter web settings system -->
+<!-- Made with bootstrap: https://getbootstrap.com/ -->
+<html>
+<head>
+	<title>Tally Counter Edit</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="data:,">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+ 	<div class="container">
+		<h2 class="text-center">Tally Counter %TALLYNUM% Edit</h2>
+		<form action="/savetally">
+			<div class="row justify-content-md-center">
+				<div class="col-sm-2">
+					<p class="%COLOR1%">Title:</p>
+				</div>
+				<div class="col-sm-4">
+					<input type="text" class="form-control text-center" name="title" value="%TALLYTITLE%">
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-sm-4">
+					<p class="%COLOR2%">Current value:</p>
+				</div>
+				<div class="col-sm-2">
+					<input type="number" class="form-control text-center" name="value" min="0" max="999999" step="1" value="%TALLYVALUE%">
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-sm-4">
+					<p class="%COLOR3%">Max Value:</p>
+				</div>
+				<div class="col-sm-2">
+					<input type="number" class="form-control text-center" name="max_value" min="1" max="999999" step="1" value="%TALLYMAXVALUE%">
+				</div>
+			</div>
+			<div class="row justify-content-md-center">
+				<div class="col-sm-4">
+					<p class="%COLOR4%">Availability:</p>
+				</div>
+				<div class="col-sm-2">
+					<div class="form-check form-switch">
+						<input class="form-check-input" type="checkbox" name="availability" value="show" %CHECKED% onchange="this.form.submit();">
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="d-grid gap-2 col-3 mx-auto">
+				<button type="submit" class="btn btn-primary" role="button" data-bs-toggle="button">SAVE</button>
+			</div>
+		</form>
+		<br>
+		<div class="d-grid gap-2 col-3 mx-auto">
+			<a href="/tallymodes.html" class="btn btn-danger" role="button" data-bs-toggle="button">Return to List</a>
+		</div>
+	</div>
+</body>
+</html>

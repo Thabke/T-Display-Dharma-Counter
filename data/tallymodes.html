@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- ESP32 Dharma Counter web settings system -->
+<!-- Made with bootstrap: https://getbootstrap.com/ -->
+<html>
+<head>
+	<title>Tally Counters</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="data:,">
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+<body>
+ 	<div class="container-fluid">
+		<h2 class="text-center">Tally Counters</h2>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 1
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<span class="badge bg-secondary">Title:</span><p class="card-text text-primary">"%TALLY1TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<span class="badge bg-secondary">Value:</span><p class="card-text text-danger">%TALLY1VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<span class="badge bg-secondary">Max Value:</span><p class="card-text text-danger">%TALLY1MAX%
+					</div>
+					<div class="col-sm-2">
+						<span class="badge bg-secondary">Availability:</span><p class="card-text text-success">%TALLY1SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit1" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 2
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY2TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY2VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY2MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY2SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit2" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 3
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY3TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY3VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY3MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY3SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit3" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 4
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY4TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY4VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY4MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY4SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit4" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 5
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY5TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY5VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY5MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY5SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit5" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 6
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY6TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY6VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY6MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY6SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit6" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 7
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY7TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY7VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY7MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY7SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit7" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 8
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY8TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY8VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY8MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY8SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit8" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 9
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY9TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY9VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY9MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY9SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit9" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<div class="card">
+			<div class="card-header fw-bold">
+				Tally counter 10
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-6">
+						<p class="card-text text-dark">Title:</p><p class="card-text text-primary">"%TALLY10TITLE%"</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Value:</p><p class="card-text text-danger">%TALLY10VALUE%</p>
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Max Value:</p><p class="card-text text-danger">%TALLY10MAX%
+					</div>
+					<div class="col-sm-2">
+						<p class="card-text text-dark">Availability:</p><p class="card-text text-success">%TALLY10SHOW%</p>
+					</div>
+				</div>
+				<div class="row justify-content-md-center">
+					<a href="/edit10" class="btn btn-primary">EDIT</a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="d-grid gap-2 col-3 mx-auto">
+			<a href="/" class="btn btn-danger" role="button" data-bs-toggle="button">Return to Start Page</a>
+		</div>
+	</div>
+</body>
+</html>
