@@ -57,6 +57,8 @@ A distance sensor VL53L0X is used for auto counting.<br>
 <b>Counting logic:</b><br>
 If the distance is less than specified (70 cm) during a certain time, then this is defined as a prostration.<br>
 After the distance has become more than specified (70 cm) for a certain time, it is defined as the beginning of a new one.
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/prostrations_demo.jpg" alt="Using demo" width="450" height="164">
+
 
 ### Some photos
 
