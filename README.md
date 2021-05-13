@@ -51,6 +51,13 @@ All files from \data folder, must be uploaded to the SPIFFS.<br>
 For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
 Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
 
+### Prostrations auto counting
+
+A distance sensor VL53L0X is used for auto counting.<br>
+<b>Counting logic:</><br>
+If the distance is less than specified (70 cm) during a certain time, then this is defined as a prostration.<br>
+After the distance has become more than specified (70 cm) for a certain time, it is defined as the beginning of a new one.
+
 ### Some photos
 
 <img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/photo1.jpg" alt="Counter 7" width="800" height="567">
