@@ -6,7 +6,7 @@
 ### Connections
 
 <b>External buttons connected to GND and board pins:</b><br>
-Pin 2  - [INC], [+] icrement button<br>
+Pin 2  - [INC], [+] increment button<br>
 Pin 27 - [DEC], [-] decrement button<br>
 Pin 12 - [Audio], [Pause] button<br>
 <b>Build in buttons:</b><br>
@@ -17,6 +17,10 @@ SCL to pin 22 of board<br>
 SDA to pin 21 of board<br>
 <b>Micro audio speaker (10mm) connected to:</b><br>
 Pin 25 and GND
+
+### Schematic
+
+
 
 ### Functionality
 
