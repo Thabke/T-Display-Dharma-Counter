@@ -20,7 +20,7 @@ Pin 25 and GND
 
 ### Schematic
 
-<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/GFX/CounterSchematic.jpg" alt="Schematic" width="515" height="476">
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/CounterSchematic.jpg" alt="Schematic" width="515" height="476">
 
 ### Functionality
 
@@ -50,3 +50,11 @@ Application size about 1.8 Mb, so use partition scheme with 2 Mb for APP.<br>
 All files from \data folder, must be uploaded to the SPIFFS.<br>
 For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
 Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
+
+### Some photos
+
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/photo1.jpg" alt="Counter 7" width="800" height="567">
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/photo2.jpg" alt="Counter 21" width="522" height="278">
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/photo3.jpg" alt="Counter 108" width="522" height="296">
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/photo4.jpg" alt="Prostrations counter" width="522" height="309">
+<img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/photo5.jpg" alt="Tally counter 3" width="522" height="300">
