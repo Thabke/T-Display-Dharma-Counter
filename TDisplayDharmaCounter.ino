@@ -7,7 +7,7 @@
 //* Connections
 //***********************************************************************************
 // External buttons connected to GND and board pins:
-// Pin 2  - [INC], [+] icrement button
+// Pin 2  - [INC], [+] increment button
 // Pin 27 - [DEC], [-] decrement button
 // Pin 12 - [Audio], [Pause] button
 // Build in buttons:
