@@ -43,7 +43,7 @@ The menu has minimal functionality. Most of the configuration is carried out thr
 ### Web server
 
 Web server in AP (Access Point) mode. After connecting to the Access Point via WiFi, use the IP address in the browser to open the configuration page.<br>
-<b>Buttons:</b>
+<b>Buttons:</b><br>
 [INC] - show QR code for server IP<br>
 [DEC] - exit from AP mode<br>
 
