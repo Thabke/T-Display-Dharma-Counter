@@ -70,14 +70,8 @@
 #include <AsyncTCP.h>               //https://github.com/me-no-dev/AsyncTCP
 #include <ESPAsyncWebServer.h>      //https://github.com/me-no-dev/ESPAsyncWebServer
 #include <qrcode.h>                 //QR code generation
-//Menu
-#include <menu.h>
-#include <menuIO/serialIO.h>
-#include <menuIO/TFT_eSPIOut.h>
-// #include <menuIO/chainStream.h>
-#include <menuIO/esp8266Out.h>//must include this even if not doing web output...
 //Header
-#include "TDisplayCounter.h"		    //Header file
+#include "TDisplayDharmaCounter.h"	//Header file
 //Fonts
 #include "KuraleRegular24.h"        //Kurale font large
 #include "KuraleRegular18.h"        //Kurale font medium
@@ -483,8 +477,8 @@ void increaseCounter ()
     if (mode == PROSTRATIONS)
       pauseProstrations ();
 
-    //if (mode > 1) //For modes 7 and 21 counters are not saved
-    saveCounters();
+    if (mode > 1) //For modes 7 and 21 counters are not saved
+      saveCounters();
   }
   else
     playSound(goal);  //Repeat end of counting sound
@@ -504,8 +498,8 @@ void decreaseCounter ()
     if (mode == PROSTRATIONS)
       pauseProstrations ();
 
-    //if (mode > 1) //For modes 7 and 21 counters are not saved
-    saveCounters();
+    if (mode > 1) //For modes 7 and 21 counters are not saved
+      saveCounters();
   }
 }
 
@@ -523,8 +517,8 @@ void resetCounter ()
     if (mode == PROSTRATIONS)
       pauseProstrations ();
 
-    //if (mode > 1) //For mode 7 and mode 21 counters are not saved
-    saveCounters();
+    if (mode > 1) //For mode 7 and mode 21 counters are not saved
+      saveCounters();
   }
 }
 
@@ -1808,10 +1802,10 @@ bool saveCounters()
   JsonArray value = jsonBuffer.createNestedArray("value");
   for (int i = 0; i < MODES; i++)
   {
-    //if (i < 2)
-    //  value.add(0); //Mode 7 and mode 21 always start from 0
-    //else
-    value.add(counter[i].value);
+    if (i < 2)
+      value.add(0); //Mode 7 and mode 21 always start from 0
+    else
+      value.add(counter[i].value);
   }
 
   // Serialize JSON to file
