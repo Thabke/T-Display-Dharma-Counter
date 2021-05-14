@@ -52,8 +52,8 @@
 // Or this: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial
 //***********************************************************************************
 
-#include "FS.h"						          //Files implementation
-#include "SPIFFS.h"					        //SPI File System
+#include <FS.h>						          //Files implementation
+#include <SPIFFS.h>					        //SPI File System
 #include <SPI.h>					          //SPI
 #include <TFT_eSPI.h>         		  //Hardware-specific library
 #include <EasyButton.h>       		  //Buttons
@@ -63,7 +63,7 @@
 //Battery control
 #include <Pangodream_18650_CL.h>    //https://www.pangodream.es/esp32-getting-battery-charging-level
 //Audio library
-#include "XT_DAC_Audio.h"           //https://www.xtronical.com/the-dacaudio-library-download-and-installation/
+#include "XT_DAC_Audio.h"           //https://www.xtronical.com/the-dacaudio-library-download-and-installation
 #include "sounds.h"                 //All sounds (converted WAV files)
 //Web Server
 #include <WiFi.h>
