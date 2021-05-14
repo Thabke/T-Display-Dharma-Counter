@@ -43,13 +43,9 @@ The menu has minimal functionality. Most of the configuration is carried out thr
 ### Web server
 
 Web server in AP (Access Point) mode. After connecting to the Access Point via WiFi, use the IP address in the browser to open the configuration page.<br>
+<b>Buttons:</b>
 [INC] - show QR code for server IP<br>
 [DEC] - exit from AP mode<br>
-
-Application size about 1.8 Mb, so use partition scheme with 2 Mb for APP.<br>
-All files from \data folder, must be uploaded to the SPIFFS.<br>
-For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
-Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
 
 ### Prostrations auto counting
 
@@ -59,6 +55,13 @@ If the distance is less than specified (70 cm) during a certain time, then this 
 After the distance has become more than specified (70 cm) for a certain time, it is defined as the beginning of a new prostration.<br>
 <img src="https://github.com/Thabke/T-Display-Dharma-Counter/raw/main/photos/prostrations_demo.jpg" alt="Using demo" width="450" height="164">
 
+### Compilation of the application
+
+The application is compiled in Arduino IDE.<br>
+Application size about 1.8 Mb, so use partition scheme with 2 Mb or more for APP.<br>
+All files from \data folder, must be uploaded to the SPIFFS.<br>
+For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
+Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
 
 ### Some photos
 
