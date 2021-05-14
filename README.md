@@ -65,9 +65,12 @@ Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_
 <b>Used external libraries:</b><br>
 Battery level: Pangodream_18650_CL - https://www.pangodream.es/esp32-getting-battery-charging-level<br>
 Audio library: XT_DAC_Audio - https://www.xtronical.com/the-dacaudio-library-download-and-installation<br>
+VL53L0X Distance Sensor: Adafruit_VL53L0X - https://github.com/adafruit/Adafruit_VL53L0X<br>
+Buttons: EasyButton - https://easybtn.earias.me/ , https://github.com/evert-arias/EasyButton<br>
+JSON configuration files: ArduinoJson - https://arduinojson.org/ , https://github.com/bblanchon/ArduinoJson<br> 
 Web Server:<br>
 AsyncTCP - https://github.com/me-no-dev/AsyncTCP<br>
-ESPAsyncWebServer - https://github.com/me-no-dev/ESPAsyncWebServer
+ESPAsyncWebServer - https://github.com/me-no-dev/ESPAsyncWebServer<br>
 QR Code - https://github.com/ricmoo/qrcode/
 
 ### Some photos
