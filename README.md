@@ -62,6 +62,12 @@ Application size about 1.8 Mb, so use partition scheme with 2 Mb or more for APP
 All files from \data folder, must be uploaded to the SPIFFS.<br>
 For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
 Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
+<b>Used external libraries:</b><br>
+Battery level: Pangodream_18650_CL - https://www.pangodream.es/esp32-getting-battery-charging-level<br>
+Audio library: XT_DAC_Audio.h - https://www.xtronical.com/the-dacaudio-library-download-and-installation<br>
+Web Server:<br>
+AsyncTCP - https://github.com/me-no-dev/AsyncTCP<br>
+ESPAsyncWebServer - https://github.com/me-no-dev/ESPAsyncWebServer
 
 ### Some photos
 
