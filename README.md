@@ -57,8 +57,8 @@ After the distance has become more than specified (70 cm) for a certain time, it
 
 ### Compilation of the application
 
-The application is compiled in Arduino IDE.<br>
-Application size about 1.8 Mb, so use partition scheme with 2 Mb or more for APP.<br>
+The application is compiled in the Arduino IDE.<br>
+The application size is about 1.8 Mb, so use partition scheme with 2 Mb or more for APP.<br>
 All files from \data folder, must be uploaded to the SPIFFS.<br>
 For that purpose you can use this tool: https://github.com/me-no-dev/arduino-esp32fs-plugin<br>
 Or this tool: https://github.com/dsiberia9s/DESKTOP_A-Explorer_File_Browser_via_Serial<br>
